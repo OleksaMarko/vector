@@ -1,3 +1,8 @@
 .svg {
   background: #fff;
 }
+
+.svg circle, .svg rect {
+  fill: none;
+  stroke: #000;
+}
