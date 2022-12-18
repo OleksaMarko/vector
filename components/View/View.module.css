@@ -1,8 +1,13 @@
 .svg {
+  will-change: height, width;
   background: #fff;
+  height: 500px;
+  width: 500px;
 }
 
-.svg circle, .svg rect {
+.svg circle,
+.svg rect {
   fill: none;
   stroke: #000;
+  vector-effect: non-scaling-stroke;
 }
